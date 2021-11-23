@@ -1,0 +1,7 @@
+ position: relative; 
+    max-height:100vh;     
+    overflow:auto;
+
+&::-webkit-scrollbar {  // hide scrollbar
+    width: 0 !important 
+}
