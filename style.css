@@ -1,42 +1,36 @@
----------------CSS DEFUALT START------------------------
+/* ---------------CSS DEFUALT START------------------------ */
+
+html{
+    font-size: 6.25%;
+}
+
 *{
     margin: 0;
     padding: 0;   
     overflow-x: hidden;   
-    font-size: 18px;
+    font-size: 18rem;
     font-family: sans-serif;      
     box-sizing: border-box;
 }
 
 :root {
     --color-primary: #ff7779;
-    --linkind-color: #0090ff;
-    --icon-hover-color: #b1b1b12e;
-  }
-  
-.iconI{
-    cursor: pointer;
+
 }
+  
+
 
 .button{
-    background: transparent;
     cursor: pointer; 
-    border: none;
-    padding: 20px;     
-
+    
     color: inherit;   
-    width: 200px;
-    height: 41px;         
-    overflow-y: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    border-radius: 5px;            
+    background: transparent;
+
 }
 
 
 h1{   
-    font-size: 30px; 
+    font-size: 30rem; 
 }
 
 .input{
@@ -65,25 +59,6 @@ h1{
 
 body{   
     
-}
-
-
-
-
-
-
-
-
-
-
--------------show scroll bar---------------
-
-   position: relative; 
-    max-height:100vh;     
-    overflow:auto;
-
-&::-webkit-scrollbar {  // hide scrollbar
-    width: 0 !important 
 }
 
 
